@@ -1,0 +1,67 @@
+body {
+  background-color: Lightgray;
+  font-family: "Verdana", serif;
+}
+
+.navbar {
+  color: white;
+}
+
+.navbar-brand {
+  margin-left: 50px !important;
+  color: "white" !important;
+  font-style: "bolder";
+  background-color: "turquoise" !important;
+}
+
+.navbar-right {
+  margin-right: 10px;
+}
+
+.panel {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+h1 {
+  color: turquoise;
+  font-style: "bold";
+  font-size: 200%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+h2 {
+  color: turquoise;
+  font-style: "bold";
+  font-size: 200%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+h3 {
+  color: turquoise;
+  font-style: "bold";
+  font-size: 200%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.border {
+  border-width: 5px;
+  border-color: turquoise;
+  border-style: solid;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: DimGray;
+  color: white !important;
+  text-align: center;
+  border-top: 5px solid turquoise;
+  height: 50px;
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Wind Speed</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- CSS Link-->
+	<link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+
+	<!-- Navbar creation -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="backup2.html" style="color: white; background-color: turquoise">
+						<span class="nav-color"></span>Andrea's Latitudes</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false">Plots<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="temperature.html">Max Temperature</a></li>
+									<li><a href="humidity.html">Humidity</a></li>
+									<li><a href="cloudiness.html">Cloudiness</a></li>
+									<li><a href="windspeed.html">Wind Speed</a></li>
+								</ul>
+							</li>
+							<li><a href="comparison.html">Comparison</a>
+							</li>
+							<li><a href="data.html">Data</a>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</nav>
+
+  <!-- Page Content -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-7">
+				<div class="panel">
+					<h1 class="panel">Wind Speed</h1>
+					<img src="fig4.png" style="width:85%" alt="Wind Speed">
+					<p>In general, the maximum temperatures at a randomly selected group of cities in this study increases as latitudes approach the equator (0 Decimal Degrees Latitude, or 0 DD Lat). However, the results may be skewed in that availability of weather stations varies in Northern and Southern hemispheres. More of the Northern Hemisphere is populated near the polar region (> 60 degrees latitude), as opposed to in the Southern Hemisphere. As such, the range of latitudes with weather data in the Northern hemisphere are greater (~80 DD) than the Southern Hemisphere (~60 DD).</p>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-12">
+				<div class="panel">
+					<h2 style="color:turquoise;">Visualizations</h2>
+					<hr>
+					<div class="row">
+						<div class="col-md-6 col-xs-4">
+							<a href="temp.html"><img src="fig1.png" style="width:100%"
+							alt="Max Temp Graph">
+							</a>
+			</div>
+
+						<div class="col-md-6 col-xs-4">
+							<a href="humidity.html"><img src="fig2.png" style="width:100%"
+							 alt="Humidity Graph">
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-xs-4">
+							<a href="clouds.html"><img src="fig3.png" style="width:100%"
+									alt="Cloudiness Graph">
+							</a>
+						</div>
+
+						<div class="col-md-6 col-xs-4">
+							<a href="wind.html"><img src="fig4.png" style="width:100%"
+							class="border" alt="Wind Speed Graph">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div class="footer">© Coding Bootcamp 2019</div>
+  </body>
+  </html>
